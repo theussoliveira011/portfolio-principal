@@ -82,7 +82,7 @@ header{
 .menu-bar-list li:hover{
   color: var(--color-logo);
   border-bottom: 3px solid var(--color-logo);
-  border-radius: 20%;
+  border-radius: 1px;
 }
 
 main{
@@ -115,5 +115,30 @@ main{
   color: var(--color-texto);
   font-size: 24px;
   font-weight: 400;
-  margin-bottom: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: end;
+  align-items: initial;
+}
+
+.lista-social-medias{
+  display: flex;
+  justify-content: center;
+  margin-right: 6rem;
+}
+
+
+.lista-social-medias li{
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+
+.lista-social-medias li i{
+  color: var(--color-texto);
+}
+
+.lista-social-medias li i:hover{
+  color: #f397ab;
 }
